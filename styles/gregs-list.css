@@ -35,14 +35,14 @@ nav {
 
 
 .search-bar {
-    position: absolute;;
+    position: relative;
     top: 120px;
     left: 150px;
 }
 
 input[type=text] {
     width: 100%;
-    padding: 10px 20px;
+    padding: 9px 20px;
     border: 1px solid #ccc;
     border-radius: 3px;
     width: 600px;
@@ -54,3 +54,34 @@ input[type=image] {
     border: 1px solid #ccc;
     border-radius: 3px;
 }
+
+.pill-nav {
+    list-style: none;
+    position: relative;
+    top: 150px;
+    left: 110px;
+    display: inline-block;   
+    
+    
+}
+
+.pill-nav a {
+    color: black;
+}
+
+.pill-nav li {
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    padding: 9px 20px;
+    float: left;
+    margin: -1px;
+ 
+}
+.prev-range:before {
+    content: "< ";
+}
+.next-range:after {
+    content: " >";
+}
+
