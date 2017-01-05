@@ -33,8 +33,11 @@ nav {
 
 .menu li {
     display: inline-block;
-    padding-left: 20px;
+    padding-left: 17px;
     font-size: 20px;
+}
+.menu a {
+    color: rebeccapurple;
 }
 
 
@@ -62,7 +65,6 @@ input[type=image] {
 
 .pill-nav {
     list-style: none;
-/*    position: relative;*/
     top: 170px;
     left: 110px;
     display: inline-block; 
