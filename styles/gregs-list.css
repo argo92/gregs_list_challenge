@@ -1,3 +1,7 @@
+body {
+    width: 100%;
+}
+
 nav {
     position: fixed;
     width: 100%;
@@ -35,9 +39,10 @@ nav {
 
 
 .search-bar {
-    position: relative;
-    top: 120px;
+
+    top: 100px;
     left: 150px;
+    position: absolute
 }
 
 input[type=text] {
@@ -57,12 +62,11 @@ input[type=image] {
 
 .pill-nav {
     list-style: none;
-    position: relative;
-    top: 150px;
+/*    position: relative;*/
+    top: 170px;
     left: 110px;
-    display: inline-block;   
-    
-    
+    display: inline-block; 
+    position: absolute
 }
 
 .pill-nav a {
@@ -85,3 +89,28 @@ input[type=image] {
     content: " >";
 }
 
+.job-listings {
+    list-style: none;
+    top: 260px;
+    left: 100px;
+    position: absolute
+}
+
+.job-listings li {
+    list-style: none;
+    padding: 9px;
+    color: #aaa;
+}
+
+.job-listings li a {
+    font-weight: bold;
+    color: dodgerblue;
+    margin: 0 5px 0 5px;
+}
+.footer {
+    position: absolute;
+    bottom: 0;
+    left: 30px;
+    color: #1e1e1e;
+    font-size: 13px;
+}
